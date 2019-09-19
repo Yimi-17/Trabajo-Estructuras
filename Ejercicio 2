@@ -1,0 +1,21 @@
+package examendeyimi;
+
+import java.util.Scanner;
+
+public class EjerciciodeYimi2 {
+    
+    public static void main(String[] args) {
+        Scanner cs = new Scanner(System.in);
+        double ant, bono, suel;
+        System.out.print("Ingrese el valor de antiguedad: ");
+        ant = cs.nextDouble();
+        cs.nextLine();
+        System.out.print("Ingrese el valor de sueldo: ");
+        suel = cs.nextDouble();
+        cs.nextLine();
+        bono=ant>4||suel<2000?suel*25/100:suel*20/100;
+        System.out.println("Valor de bono navideno: " + bono);
+  
+    
+    }
+}
