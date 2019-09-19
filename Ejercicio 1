@@ -1,0 +1,21 @@
+package examendeyimi;
+
+import java.util.Scanner;
+
+public class ExamendeYimi {
+
+ public static void main(String[] args) {
+      Scanner cs=new Scanner(System.in);
+      System.out.println("Ingrese numero de dias:");
+        int dias=cs.nextInt();
+      System.out.println("Ingrese gasto de hotel:");
+        int hot=cs.nextInt();
+      System.out.println("Ingrese gasto de comida"); 
+        int com=cs.nextInt();
+        int adic=100*dias;
+        int total=hot+com+adic;
+        int total2=total*dias;
+      System.out.println("Gasto total es: "+total2);
+    }
+    
+}
