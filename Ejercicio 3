@@ -2,7 +2,7 @@ package examendeyimi;
 
 import java.util.Scanner;
         
-public class Ejercicio3 {
+public class EjerciciodeYimi3 {
     public static void main(String[] args) {
         Scanner cs = new Scanner(System.in);
         int mayor;
